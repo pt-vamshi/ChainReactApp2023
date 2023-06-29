@@ -1,12 +1,12 @@
 import { ExpoConfig, ConfigContext } from "@expo/config"
 import { version } from "./package.json"
 
-const BUILD_NUMBER = 9
+const BUILD_NUMBER = 10
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: "Chain React App 2023",
-  slug: "ChainReactApp2023",
+  name: "vamshi-pt",
+  slug: "test",
   scheme: "chainreactapp",
   version,
   orientation: "portrait",
@@ -88,14 +88,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   owner: "infinitered",
   extra: {
     eas: {
-      projectId: "b72c79d7-7c87-4aa7-b964-998dcff69e07",
+      projectId: "3c2e0d6c-71e9-4f31-8658-724366f13cd2",
     },
   },
   plugins: [
     "@react-native-firebase/app",
     "@react-native-firebase/crashlytics",
     ["expo-build-properties", { ios: { useFrameworks: "static" } }],
-    ["expo-updates", { username: "infinitered" }],
+    ["expo-updates", { username: "vamshi-pt" }],
     ["expo-localization"],
     [
       "expo-build-properties",
