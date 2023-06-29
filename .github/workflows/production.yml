@@ -36,4 +36,4 @@ jobs:
 
       - name: Build on EAS
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: eas build --platform all --profile production --non-interactive --clear-cache
+        run: eas build --profile development -p android
