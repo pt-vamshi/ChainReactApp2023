@@ -85,7 +85,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       backgroundColor: "#081828",
     },
   },
-  owner: "infinitered",
+  owner: "vamshi-pt",
   extra: {
     eas: {
       projectId: "3c2e0d6c-71e9-4f31-8658-724366f13cd2",
